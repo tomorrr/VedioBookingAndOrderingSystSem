@@ -4,6 +4,9 @@
 }
 body {
   background-color: rgb(208, 214, 240);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 /* 介绍框 */
 .intro {
@@ -32,14 +35,15 @@ body {
 
 /* 信息框 */
 .container {
+  width: 60%;
+  min-width: 800px;
+  height: 500px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -750px;
-  margin-top: -400px;
-  width: 1500px;
-  height: 800px;
-  background-color: aqua;
+  margin-left: -30%;
+  margin-top: -250px;
+  /* background-color: aqua; */
   display: flex;
   justify-content: start;
   align-items: center;
